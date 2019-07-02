@@ -1,0 +1,42 @@
+{
+  "name": "my-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=app nodemon app.js",
+    "lint": "eslint app.js"
+  },
+  "author": "Lilian Mathu",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "chalk": "2.4.2",
+    "debug": "4.1.1",
+    "ejs": "2.6.2",
+    "express": "4.17.1",
+    "jquery": "3.4.1",
+    "morgan": "1.9.1",
+    "nodemon": "1.19.1",
+    "pug": "2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "2.18.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-react": "7.14.2"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": "25https://www.youtube.com/watch?v=xEdWzoTtgWU&list=PLmwsqzPzyRUn72a8tlzT4hC7Bo-L3_co8&index=300",
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 4000
+    }
+  }
+}
